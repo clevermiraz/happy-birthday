@@ -1,0 +1,29 @@
+/* sticky bottom right corner footer like webflow logo*/
+
+.container {
+    position: fixed;
+    bottom: 25px;
+    right: 20px;
+    width: 55px;
+    height: 22px;
+    /* background-image: var(--gradient-1); */
+    background-color: black;
+    display: grid;
+    place-items: center;
+    font-size: 2.1rem;
+    /* clip-path: var(--clip-path-8); */
+    opacity: 1;
+    transition: 1s;
+    z-index: 4;
+    border-radius: 10%;
+}
+
+.content {
+    font-size: small;
+    color: white;
+    font-weight: bold;
+    opacity: 0.7;
+    font-family: "Roboto", sans-serif;
+    margin: auto;
+    padding: auto;
+}

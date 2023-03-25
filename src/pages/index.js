@@ -1,3 +1,4 @@
+import Footer from '@/components/Footer';
 import MainComponent from '@/components/MainComponent';
 import Head from 'next/head';
 import Script from 'next/script';
@@ -22,6 +23,7 @@ export default function Home() {
             <Script src="main.js" strategy="lazyOnload" />
 
             <MainComponent />
+            <Footer />
         </>
     );
 }
