@@ -49,7 +49,7 @@ export default function MainComponent() {
                 </p>
             </div>
             <div className="six">
-                <img src="img/lydia2.png" alt="" className="lydia-dp" data-node-name="imagePath" />
+                <img src="img/miraz.jpeg" alt="" className="lydia-dp" data-node-name="imagePath" />
                 <img src="img/hat.svg" alt="" className="hat" />
                 <div className="wish">
                     <h3 className="wish-hbd" data-node-name="wishHeading">
