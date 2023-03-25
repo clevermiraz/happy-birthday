@@ -1,0 +1,31 @@
+{
+    // Theme
+    // "workbench.colorTheme": "Dracula",
+
+    // config related to code formatting
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "[javascript]": {
+        "editor.formatOnSave": false,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascriptreact]": {
+        "editor.formatOnSave": false,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "javascript.validate.enable": false, //disable all built-in syntax checking
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
+        "source.fixAll.tslint": true,
+        "source.organizeImports": true
+    },
+    "eslint.alwaysShowStatus": true,
+    // emmet
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "prettier.tabWidth": 4,
+    // space indentation
+    "editor.tabSize": 4
+}
